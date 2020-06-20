@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: com.hrms.runners.SmokeRunner
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 107.01 s <<< FAILURE! - in com.hrms.runners.SmokeRunner
+Adding skills to an exesting employee.As an Admin I should be able to add difrrent skills to an exesting employee  Time elapsed: 35.587 s  <<< ERROR!
+org.openqa.selenium.NoSuchElementException: 
+Cannot locate element with text: Creative
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-J49C07QH', ip: '172.20.10.7', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_251'
+Driver info: driver.version: unknown
+

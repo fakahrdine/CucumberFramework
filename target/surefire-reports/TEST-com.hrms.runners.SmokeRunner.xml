@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.hrms.runners.SmokeRunner" time="107.01" tests="5" errors="1" skipped="0" failures="0">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\Mohamed\IdeaProjects\HrmsCucumber\target\test-classes;C:\Users\Mohamed\IdeaProjects\HrmsCucumber\target\classes;C:\Users\Mohamed\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Users\Mohamed\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\Mohamed\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\Mohamed\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Users\Mohamed\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\Mohamed\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Users\Mohamed\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Users\Mohamed\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\Mohamed\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Users\Mohamed\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\Mohamed\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\Mohamed\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\Mohamed\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\Mohamed\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\Mohamed\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\Mohamed\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\Mohamed\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\Mohamed\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\Mohamed\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\Mohamed\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\Mohamed\.m2\repository\io\github\bonigarcia\webdrivermanager\3.8.1\webdrivermanager-3.8.1.jar;C:\Users\Mohamed\.m2\repository\org\slf4j\slf4j-api\1.7.25\slf4j-api-1.7.25.jar;C:\Users\Mohamed\.m2\repository\com\google\code\gson\gson\2.8.5\gson-2.8.5.jar;C:\Users\Mohamed\.m2\repository\org\apache\commons\commons-lang3\3.8.1\commons-lang3-3.8.1.jar;C:\Users\Mohamed\.m2\repository\org\apache\httpcomponents\httpclient\4.5.6\httpclient-4.5.6.jar;C:\Users\Mohamed\.m2\repository\org\apache\httpcomponents\httpcore\4.4.10\httpcore-4.4.10.jar;C:\Users\Mohamed\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\Mohamed\.m2\repository\commons-codec\commons-codec\1.10\commons-codec-1.10.jar;C:\Users\Mohamed\.m2\repository\org\rauschig\jarchivelib\1.0.0\jarchivelib-1.0.0.jar;C:\Users\Mohamed\.m2\repository\org\jsoup\jsoup\1.11.3\jsoup-1.11.3.jar;C:\Users\Mohamed\.m2\repository\org\apache\poi\poi-ooxml\4.1.2\poi-ooxml-4.1.2.jar;C:\Users\Mohamed\.m2\repository\org\apache\poi\poi\4.1.2\poi-4.1.2.jar;C:\Users\Mohamed\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;C:\Users\Mohamed\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\Mohamed\.m2\repository\com\zaxxer\SparseBitSet\1.2\SparseBitSet-1.2.jar;C:\Users\Mohamed\.m2\repository\org\apache\poi\poi-ooxml-schemas\4.1.2\poi-ooxml-schemas-4.1.2.jar;C:\Users\Mohamed\.m2\repository\org\apache\xmlbeans\xmlbeans\3.1.0\xmlbeans-3.1.0.jar;C:\Users\Mohamed\.m2\repository\org\apache\commons\commons-compress\1.19\commons-compress-1.19.jar;C:\Users\Mohamed\.m2\repository\com\github\virtuald\curvesapi\1.06\curvesapi-1.06.jar;C:\Users\Mohamed\.m2\repository\commons-io\commons-io\2.6\commons-io-2.6.jar;C:\Users\Mohamed\.m2\repository\io\cucumber\cucumber-java\5.7.0\cucumber-java-5.7.0.jar;C:\Users\Mohamed\.m2\repository\io\cucumber\cucumber-core\5.7.0\cucumber-core-5.7.0.jar;C:\Users\Mohamed\.m2\repository\io\cucumber\cucumber-gherkin\5.7.0\cucumber-gherkin-5.7.0.jar;C:\Users\Mohamed\.m2\repository\io\cucumber\cucumber-gherkin-vintage\5.7.0\cucumber-gherkin-vintage-5.7.0.jar;C:\Users\Mohamed\.m2\repository\io\cucumber\tag-expressions\2.0.4\tag-expressions-2.0.4.jar;C:\Users\Mohamed\.m2\repository\io\cucumber\cucumber-expressions\8.3.1\cucumber-expressions-8.3.1.jar;C:\Users\Mohamed\.m2\repository\io\cucumber\datatable\3.3.1\datatable-3.3.1.jar;C:\Users\Mohamed\.m2\repository\io\cucumber\cucumber-plugin\5.7.0\cucumber-plugin-5.7.0.jar;C:\Users\Mohamed\.m2\repository\io\cucumber\docstring\5.7.0\docstring-5.7.0.jar;C:\Users\Mohamed\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;C:\Users\Mohamed\.m2\repository\io\cucumber\cucumber-junit\5.7.0\cucumber-junit-5.7.0.jar;C:\Users\Mohamed\.m2\repository\junit\junit\4.13\junit-4.13.jar;C:\Users\Mohamed\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\Mohamed\.m2\repository\org\assertj\assertj-core\3.16.1\assertj-core-3.16.1.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="user.timezone" value="America/New_York"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jre1.8.0_251\bin"/>
+    <property name="sun.java.command" value="C:\Users\Mohamed\AppData\Local\Temp\surefire7221453069404525800\surefirebooter4597118182759691784.jar C:\Users\Mohamed\AppData\Local\Temp\surefire7221453069404525800 2020-06-19T19-28-43_454-jvmRun1 surefire1933263609192312898tmp surefire_06963478771158760952tmp"/>
+    <property name="surefire.test.class.path" value="C:\Users\Mohamed\IdeaProjects\HrmsCucumber\target\test-classes;C:\Users\Mohamed\IdeaProjects\HrmsCucumber\target\classes;C:\Users\Mohamed\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Users\Mohamed\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\Mohamed\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\Mohamed\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Users\Mohamed\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\Mohamed\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Users\Mohamed\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Users\Mohamed\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\Mohamed\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Users\Mohamed\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\Mohamed\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\Mohamed\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\Mohamed\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\Mohamed\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\Mohamed\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\Mohamed\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\Mohamed\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\Mohamed\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\Mohamed\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\Mohamed\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\Mohamed\.m2\repository\io\github\bonigarcia\webdrivermanager\3.8.1\webdrivermanager-3.8.1.jar;C:\Users\Mohamed\.m2\repository\org\slf4j\slf4j-api\1.7.25\slf4j-api-1.7.25.jar;C:\Users\Mohamed\.m2\repository\com\google\code\gson\gson\2.8.5\gson-2.8.5.jar;C:\Users\Mohamed\.m2\repository\org\apache\commons\commons-lang3\3.8.1\commons-lang3-3.8.1.jar;C:\Users\Mohamed\.m2\repository\org\apache\httpcomponents\httpclient\4.5.6\httpclient-4.5.6.jar;C:\Users\Mohamed\.m2\repository\org\apache\httpcomponents\httpcore\4.4.10\httpcore-4.4.10.jar;C:\Users\Mohamed\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\Mohamed\.m2\repository\commons-codec\commons-codec\1.10\commons-codec-1.10.jar;C:\Users\Mohamed\.m2\repository\org\rauschig\jarchivelib\1.0.0\jarchivelib-1.0.0.jar;C:\Users\Mohamed\.m2\repository\org\jsoup\jsoup\1.11.3\jsoup-1.11.3.jar;C:\Users\Mohamed\.m2\repository\org\apache\poi\poi-ooxml\4.1.2\poi-ooxml-4.1.2.jar;C:\Users\Mohamed\.m2\repository\org\apache\poi\poi\4.1.2\poi-4.1.2.jar;C:\Users\Mohamed\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;C:\Users\Mohamed\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\Mohamed\.m2\repository\com\zaxxer\SparseBitSet\1.2\SparseBitSet-1.2.jar;C:\Users\Mohamed\.m2\repository\org\apache\poi\poi-ooxml-schemas\4.1.2\poi-ooxml-schemas-4.1.2.jar;C:\Users\Mohamed\.m2\repository\org\apache\xmlbeans\xmlbeans\3.1.0\xmlbeans-3.1.0.jar;C:\Users\Mohamed\.m2\repository\org\apache\commons\commons-compress\1.19\commons-compress-1.19.jar;C:\Users\Mohamed\.m2\repository\com\github\virtuald\curvesapi\1.06\curvesapi-1.06.jar;C:\Users\Mohamed\.m2\repository\commons-io\commons-io\2.6\commons-io-2.6.jar;C:\Users\Mohamed\.m2\repository\io\cucumber\cucumber-java\5.7.0\cucumber-java-5.7.0.jar;C:\Users\Mohamed\.m2\repository\io\cucumber\cucumber-core\5.7.0\cucumber-core-5.7.0.jar;C:\Users\Mohamed\.m2\repository\io\cucumber\cucumber-gherkin\5.7.0\cucumber-gherkin-5.7.0.jar;C:\Users\Mohamed\.m2\repository\io\cucumber\cucumber-gherkin-vintage\5.7.0\cucumber-gherkin-vintage-5.7.0.jar;C:\Users\Mohamed\.m2\repository\io\cucumber\tag-expressions\2.0.4\tag-expressions-2.0.4.jar;C:\Users\Mohamed\.m2\repository\io\cucumber\cucumber-expressions\8.3.1\cucumber-expressions-8.3.1.jar;C:\Users\Mohamed\.m2\repository\io\cucumber\datatable\3.3.1\datatable-3.3.1.jar;C:\Users\Mohamed\.m2\repository\io\cucumber\cucumber-plugin\5.7.0\cucumber-plugin-5.7.0.jar;C:\Users\Mohamed\.m2\repository\io\cucumber\docstring\5.7.0\docstring-5.7.0.jar;C:\Users\Mohamed\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;C:\Users\Mohamed\.m2\repository\io\cucumber\cucumber-junit\5.7.0\cucumber-junit-5.7.0.jar;C:\Users\Mohamed\.m2\repository\junit\junit\4.13\junit-4.13.jar;C:\Users\Mohamed\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\Mohamed\.m2\repository\org\assertj\assertj-core\3.16.1\assertj-core-3.16.1.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\Mohamed"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.home" value="C:\Program Files\Java\jre1.8.0_251"/>
+    <property name="basedir" value="C:\Users\Mohamed\IdeaProjects\HrmsCucumber"/>
+    <property name="file.separator" value="\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="C:\Users\Mohamed\AppData\Local\Temp\surefire7221453069404525800\surefirebooter4597118182759691784.jar"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jre1.8.0_251\lib\resources.jar;C:\Program Files\Java\jre1.8.0_251\lib\rt.jar;C:\Program Files\Java\jre1.8.0_251\lib\sunrsasign.jar;C:\Program Files\Java\jre1.8.0_251\lib\jsse.jar;C:\Program Files\Java\jre1.8.0_251\lib\jce.jar;C:\Program Files\Java\jre1.8.0_251\lib\charsets.jar;C:\Program Files\Java\jre1.8.0_251\lib\jfr.jar;C:\Program Files\Java\jre1.8.0_251\classes"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="1.8.0_251-b08"/>
+    <property name="user.name" value="Mohamed"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jre1.8.0_251\lib\endorsed"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\Mohamed\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\Mohamed\AppData\Local\Temp\"/>
+    <property name="java.version" value="1.8.0_251"/>
+    <property name="user.dir" value="C:\Users\Mohamed\IdeaProjects\HrmsCucumber"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Program Files\Java\jre1.8.0_251\bin;C:\windows\Sun\Java\bin;C:\windows\system32;C:\windows;C:\Users\Mohamed\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\local\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\Mohamed\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0;C:\windows\System32\OpenSSH;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\Java\jdk1.8.0_241\bin;C:\Program Files\Git\cmd;C:\Program Files\apache-maven-3.6.3-bin\apache-maven-3.6.3\bin;C:\Users\Mohamed\AppData\Local\Microsoft\WindowsApps;C:\Users\Mohamed\AppData\Local\GitHubDesktop\bin;C:\Program Files\Git\usr\bin\vendor_perl;C:\Program Files\Git\usr\bin\core_perl;."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="25.251-b08"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jre1.8.0_251\lib\ext;C:\windows\Sun\Java\lib\ext"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="52.0"/>
+  </properties>
+  <testcase name="As an Admin user I should be able to change employees contact details" classname="Adding Employee Contact Details" time="18.527">
+    <system-out><![CDATA[
+@inProgress
+Scenario Outline: As an Admin user I should be able to change employees contact details                                                                                                                           # src/test/resources/featuress/employeeContactDetails.feature:16
+  Given Admin logged in successfully to Hrms application                                                                                                                                                          # com.hrms.steps.AddContactDetailsSteps.admin_logged_in_successfully_to_Hrms_application()
+  And Admin  navigate to employees list page and                                                                                                                                                                  # com.hrms.steps.AddContactDetailsSteps.admin_navigate_to_employees_list_page_and()
+  And Admin enter valid employee Id "12852" and click on search button                                                                                                                                            # com.hrms.steps.AddContactDetailsSteps.admin_enter_valid_employee_Id_and_click_on_search_button(java.lang.String)
+  And Admin click on employee name in the table list                                                                                                                                                              # com.hrms.steps.AddContactDetailsSteps.admin_click_on_employee_name_in_the_table_list()
+  When Admin click on  Contact details section on personnel details page                                                                                                                                          # com.hrms.steps.AddContactDetailsSteps.admin_click_on_Contact_details_section_on_personnel_details_page()
+  Then Admin enters employees contact details as "4949 manitoba  dr","4949 manitoba  dr",  "Alexandria","N?A","2312","Afghanistan", "5744589878","78455255","54844875","kaghs785@gmail.com","ronny2015@gmail.com" # com.hrms.steps.AddContactDetailsSteps.admin_enters_employees_contact_details_as(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)
+test ends
+  Then Admin sees employee contact details saved                                                                                                                                                                  # com.hrms.steps.AddContactDetailsSteps.admin_sees_employee_contact_details_saved()
+
+    Embedding As an Admin user I should be able to change employees contact details [img/png 128228 bytes]
+
+]]></system-out>
+    <system-err><![CDATA[Jun 19, 2020 7:28:44 PM io.cucumber.junit.Cucumber <init>
+WARNING: By default Cucumber is running in --non-strict mode.
+This default will change to --strict and --non-strict will be removed.
+You can use --strict or @CucumberOptions(strict = true) to suppress this warning
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+Starting ChromeDriver 83.0.4103.39 (ccbf011cb2d2b19b506d844400483861342c20cd-refs/branch-heads/4103@{#416}) on port 5988
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Jun 19, 2020 7:28:48 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="As an Admin user I should be able to change employees contact details" classname="Adding Employee Contact Details" time="17.39">
+    <system-out><![CDATA[
+@inProgress
+Scenario Outline: As an Admin user I should be able to change employees contact details                                                                                                     # src/test/resources/featuress/employeeContactDetails.feature:17
+  Given Admin logged in successfully to Hrms application                                                                                                                                    # com.hrms.steps.AddContactDetailsSteps.admin_logged_in_successfully_to_Hrms_application()
+  And Admin  navigate to employees list page and                                                                                                                                            # com.hrms.steps.AddContactDetailsSteps.admin_navigate_to_employees_list_page_and()
+  And Admin enter valid employee Id "12681" and click on search button                                                                                                                      # com.hrms.steps.AddContactDetailsSteps.admin_enter_valid_employee_Id_and_click_on_search_button(java.lang.String)
+  And Admin click on employee name in the table list                                                                                                                                        # com.hrms.steps.AddContactDetailsSteps.admin_click_on_employee_name_in_the_table_list()
+  When Admin click on  Contact details section on personnel details page                                                                                                                    # com.hrms.steps.AddContactDetailsSteps.admin_click_on_Contact_details_section_on_personnel_details_page()
+  Then Admin enters employees contact details as "101 row st","101 row st",  "veinna","N?A","22310","Algeria", "458945822","55555885","444412681","ka78po5@gmail.com","fuyam2015@gmail.com" # com.hrms.steps.AddContactDetailsSteps.admin_enters_employees_contact_details_as(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)
+test ends
+  Then Admin sees employee contact details saved                                                                                                                                            # com.hrms.steps.AddContactDetailsSteps.admin_sees_employee_contact_details_saved()
+
+    Embedding As an Admin user I should be able to change employees contact details [img/png 125978 bytes]
+
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 83.0.4103.39 (ccbf011cb2d2b19b506d844400483861342c20cd-refs/branch-heads/4103@{#416}) on port 5714
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Jun 19, 2020 7:29:05 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="As an Admin user I should be able to change employees contact details" classname="Adding Employee Contact Details" time="16.902">
+    <system-out><![CDATA[
+@inProgress
+Scenario Outline: As an Admin user I should be able to change employees contact details                                                                                                                    # src/test/resources/featuress/employeeContactDetails.feature:18
+  Given Admin logged in successfully to Hrms application                                                                                                                                                   # com.hrms.steps.AddContactDetailsSteps.admin_logged_in_successfully_to_Hrms_application()
+  And Admin  navigate to employees list page and                                                                                                                                                           # com.hrms.steps.AddContactDetailsSteps.admin_navigate_to_employees_list_page_and()
+  And Admin enter valid employee Id "14203" and click on search button                                                                                                                                     # com.hrms.steps.AddContactDetailsSteps.admin_enter_valid_employee_Id_and_click_on_search_button(java.lang.String)
+  And Admin click on employee name in the table list                                                                                                                                                       # com.hrms.steps.AddContactDetailsSteps.admin_click_on_employee_name_in_the_table_list()
+  When Admin click on  Contact details section on personnel details page                                                                                                                                   # com.hrms.steps.AddContactDetailsSteps.admin_click_on_Contact_details_section_on_personnel_details_page()
+  Then Admin enters employees contact details as "5975 s rynolds st","5975 s rynolds st",  "woodbrig","N?A","2000","Bolivia", "4588259","44588528","147444203","kaft785@gmail.com","kuyamam2015@gmail.com" # com.hrms.steps.AddContactDetailsSteps.admin_enters_employees_contact_details_as(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)
+test ends
+  Then Admin sees employee contact details saved                                                                                                                                                           # com.hrms.steps.AddContactDetailsSteps.admin_sees_employee_contact_details_saved()
+
+    Embedding As an Admin user I should be able to change employees contact details [img/png 127317 bytes]
+
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 83.0.4103.39 (ccbf011cb2d2b19b506d844400483861342c20cd-refs/branch-heads/4103@{#416}) on port 12951
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Jun 19, 2020 7:29:23 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="As an Admin user I should be able to change employees contact details" classname="Adding Employee Contact Details" time="18.21">
+    <system-out><![CDATA[
+@inProgress
+Scenario Outline: As an Admin user I should be able to change employees contact details                                                                                                             # src/test/resources/featuress/employeeContactDetails.feature:19
+  Given Admin logged in successfully to Hrms application                                                                                                                                            # com.hrms.steps.AddContactDetailsSteps.admin_logged_in_successfully_to_Hrms_application()
+  And Admin  navigate to employees list page and                                                                                                                                                    # com.hrms.steps.AddContactDetailsSteps.admin_navigate_to_employees_list_page_and()
+  And Admin enter valid employee Id "13395" and click on search button                                                                                                                              # com.hrms.steps.AddContactDetailsSteps.admin_enter_valid_employee_Id_and_click_on_search_button(java.lang.String)
+  And Admin click on employee name in the table list                                                                                                                                                # com.hrms.steps.AddContactDetailsSteps.admin_click_on_employee_name_in_the_table_list()
+  When Admin click on  Contact details section on personnel details page                                                                                                                            # com.hrms.steps.AddContactDetailsSteps.admin_click_on_Contact_details_section_on_personnel_details_page()
+  Then Admin enters employees contact details as "1213 duke st","1213 duke st",  "colombia","N?A","2354","Canada", "852889455","782646651","70337741788","kfaa785@gmail.com","albetm2015@gmail.com" # com.hrms.steps.AddContactDetailsSteps.admin_enters_employees_contact_details_as(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)
+test ends
+  Then Admin sees employee contact details saved                                                                                                                                                    # com.hrms.steps.AddContactDetailsSteps.admin_sees_employee_contact_details_saved()
+
+    Embedding As an Admin user I should be able to change employees contact details [img/png 127088 bytes]
+
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 83.0.4103.39 (ccbf011cb2d2b19b506d844400483861342c20cd-refs/branch-heads/4103@{#416}) on port 9420
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Jun 19, 2020 7:29:40 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="As an Admin I should be able to add difrrent skills to an exesting employee" classname="Adding skills to an exesting employee" time="35.587">
+    <error message="Cannot locate element with text: Creative&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;LAPTOP-J49C07QH&apos;, ip: &apos;172.20.10.7&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_251&apos;&#10;Driver info: driver.version: unknown" type="org.openqa.selenium.NoSuchElementException"><![CDATA[org.openqa.selenium.NoSuchElementException: 
+Cannot locate element with text: Creative
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-J49C07QH', ip: '172.20.10.7', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_251'
+Driver info: driver.version: unknown
+]]></error>
+    <system-out><![CDATA[
+@temp
+Scenario Outline: As an Admin I should be able to add difrrent skills to an exesting employee # src/test/resources/featuress/qualifications.feature:18
+  Given Admin logged in successfully to Hrms application                                      # com.hrms.steps.AddContactDetailsSteps.admin_logged_in_successfully_to_Hrms_application()
+  And Admin  navigate to employees list page and                                              # com.hrms.steps.AddContactDetailsSteps.admin_navigate_to_employees_list_page_and()
+  And Admin enter valid employee Id "12852" and click on search button                        # com.hrms.steps.AddContactDetailsSteps.admin_enter_valid_employee_Id_and_click_on_search_button(java.lang.String)
+  And Admin click on employee name in the table list                                          # com.hrms.steps.AddContactDetailsSteps.admin_click_on_employee_name_in_the_table_list()
+  Then Admin click on qualification section button                                            # com.hrms.steps.AddingEmployeeSkillsSteps.admin_click_on_qualification_section_button()
+  And Admin click on add skills button                                                        # com.hrms.steps.AddingEmployeeSkillsSteps.admin_click_on_add_skills_button()
+  When Admin selects skill "Creative" & enters "3" & "good"                                   # com.hrms.steps.AddingEmployeeSkillsSteps.admin_selects_skill_enters(java.lang.String,java.lang.String,java.lang.String)
+      org.openqa.selenium.NoSuchElementException: Cannot locate element with text: Creative
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-J49C07QH', ip: '172.20.10.7', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_251'
+Driver info: driver.version: unknown
+	at org.openqa.selenium.support.ui.Select.selectByVisibleText(Select.java:147)
+	at com.hrms.utils.CommonMethods.selectValueFromDd(CommonMethods.java:48)
+	at com.hrms.steps.AddingEmployeeSkillsSteps.admin_selects_skill_enters(AddingEmployeeSkillsSteps.java:35)
+	at ?.Admin selects skill "Creative" & enters "3" & "good"(file:///C:/Users/Mohamed/IdeaProjects/HrmsCucumber/src/test/resources/featuress/qualifications.feature:12)
+
+  And Amin click on save button                                                               # com.hrms.steps.AddingEmployeeSkillsSteps.amin_click_on_save_button()
+  Then Admin sees that the skill "Creative" added to employes skills table                    # com.hrms.steps.AddingEmployeeSkillsSteps.admin_sees_that_the_skill_added_to_employes_skills_table(java.lang.String)
+
+    Embedding As an Admin I should be able to add difrrent skills to an exesting employee [img/png 119882 bytes]
+
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 83.0.4103.39 (ccbf011cb2d2b19b506d844400483861342c20cd-refs/branch-heads/4103@{#416}) on port 27328
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Jun 19, 2020 7:29:58 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+</testsuite>
